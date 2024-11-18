@@ -5,53 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小米及相关品牌刷机指南</title>
     <style>
+        /* 基本样式 */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             background-color: #f4f4f4;
             color: #333;
+            margin: 0;
+            padding: 0;
         }
 
+        /* 容器样式 */
         .content {
             max-width: 800px;
             margin: 50px auto;
-            padding: 20px;
+            padding: 30px;
             background-color: #fff;
             border: 1px solid #ddd;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border-radius: 8px;
+            text-align: center;
         }
 
+        /* 标题样式 */
         .content h2 {
             color: #333;
+            font-size: 28px;
+            margin-bottom: 30px;
             text-align: center;
-            font-size: 24px;
-            margin-bottom: 20px;
         }
 
+        /* 列表样式 */
         .content ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .content li {
             background: #eaeaea;
-            margin: 5px 0;
-            padding: 10px;
+            margin: 10px 0;
+            padding: 15px;
             border-radius: 5px;
+            text-align: left;
+            width: 100%;
+            max-width: 600px;
+            transition: background 0.3 ease;
+        }
+
+        .content li:hover {
+            background: #d1d1d1;
         }
 
         .content li span {
             display: block;
             color: #555;
-            font-size: 16px;
+            font-size: 18px;
         }
 
+        /* 段落样式 */
         .content p {
             color: #777;
-            font-size: 14px;
+            font-size: 16px;
             margin-top: 20px;
             text-align: center;
+        }
+
+        /* 按钮样式 */
+        .content button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background 0.3 ease;
+            margin-top: 20px;
+        }
+
+        .content button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -64,13 +102,17 @@
             <li><span>小米Root</span></li>
             <li><span>OPPO、VIVO、HUAWEI等品牌系统固件下载</span></li>
             <li><span>小米刷机资料，工厂包下载及购买信息</span></li>
-            <li><span>小米批量授权刷机、演示机改正常机器、、、、</span></li>
-            <li><span> </span></li>
-            <li><span>小米刷机，请联系我们的团队【米兰数码】</span></li>
         </ul>
         <p>如需了解更多详情，请通过以下方式联系我们：<br>
            QQ: 1104382467 / 2408350440
         </p>
+        <button onclick="showAlert()">联系我们</button>
     </div>
+
+    <script>
+        function showAlert() {
+            alert("出售outlook163.eu.org后缀的域名，如需了解更多详情，请通过以下方式联系我们：QQ: 1104382467 / 2408350440");
+        }
+    </script>
 </body>
 </html>
