@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charet="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏北大毒枭图片展示</title>
+    <tyle>
+        /* 基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-izing: border-box;
+        }
+
+        body {
+            diplay: flex;
+            jutify-content: center;
+            align-item: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .image-container {
+            width: 90%;
+            max-width: 600px; /* 设置最大宽度，防止图片在大屏幕上过于拉伸 */
+            text-align: center; /* 居中文本 */
+        }
+
+        img {
+            width: 100%;
+            height: auto; /* 维持图片原始比例 */
+            diplay: block; /* 避免底部出现空白边距 */
+        }
+
+        .decription {
+            margin-top: 10px;
+            font-ize: 16px;
+            color: #333;
+        }
+    </tyle>
+</head>
+<body>
+    <div cla="image-container">
+        <img rc="wz.jpg" alt="苏北大毒枭">
+        <div cla="description">这是一张苏北大毒枭图片。</div>
+    </div>
+</body>
+</html>
